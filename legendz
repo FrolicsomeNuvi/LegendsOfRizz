@@ -9,7 +9,8 @@ end
 
 local function copyToClipboard()
     local textToCopy = "https://discord.gg/4mm4q2NNkV"
-    showNotification("Script Moved to New Github!, Join Discord for updates.", "Link copied to your clipboard: " .. textToCopy, 5)
+    showNotification("Script Moved to New Github!, Join Discord for updates.", "Press F9 tp see the Link, The Link is copied to your clipboard: " .. textToCopy, 5)
+    print("https://discord.gg/4mm4q2NNkV"
 end
 
 copyToClipboard()
